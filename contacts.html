@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c56734cb90.js" crossorigin="anonymous"></script>
+    <script src="fontawesome/all.min.css"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/sidebar.js"></script>
+</head>
+
+<body>
+    <container>
+        <header>
+            <nav>
+                <div class="heading">
+                    <button class="openbtn">
+                        <svg width="40" height="26" viewBox="0 0 44 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M44 1.5H0V0.5H44V1.5ZM44 13.5H0V12.5H44V13.5ZM0 25.5H44V24.5H0V25.5Z" fill="white" />
+                        </svg>
+                    </button>
+                    <div id="mySidepanel" class="sidepanel">
+                        <a href="javascript:void(0)" class="closebtn">╳</a>
+                        <a href="index.html" target="_self">
+                            <li>Home</li>
+                        </a>
+                        <a href="blank.html" target="_self">
+                            <li>Portfolio</li>
+                        </a>
+                        <a href="about.html">
+                            <li>About</li>
+                        </a>
+                        <a href="contacts.html">
+                            <li>Contacts</li>
+                        </a>
+                    </div>
+                    <div class="icons">
+                        <a href="images/cv.pdf">
+                            <span class="icon-1">
+                                <i class="fas fa-file-alt"></i>
+                            </span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/elena-tsivinskaya-jobnow/">
+                            <span class="icon-2">
+                                <i class="fab fa-linkedin-in"></i>
+                            </span>
+                        </a>
+                        <a href="https://github.com/wtc066">
+                            <span class="icon-3">
+                                <i class="fab fa-github"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="services">
+                <div class="description">
+                    <h1>Contacts</h1>
+                    <p>Send me a message and I'll answer you!</p>
+                </div>
+                <form id="feedback-form" action="/send.php" method="POST">
+                    <input type="text" name="name" required placeholder="Name">
+                    <input type="email" name="email" required placeholder="Email">
+                    <textarea name="text" placeholder="Message"></textarea>
+                    <button type="submit" class="order">Book project</button>
+                </form>
+            </div>
+        </div>
+    </container>
+    <footer>
+        <div class="social">
+            <div class="social_1">
+                <p>Design by Elena Tsivinskaya</p>
+            </div>
+            <div class="social_2">
+                <a href="https://www.facebook.com/ElenaStoalos/">
+                    <img src="images/facebook.svg" id="icon_fb">
+                </a>
+                <a href="https://t.me/Sgtrfj">
+                    <img src="images/telegram.svg">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
