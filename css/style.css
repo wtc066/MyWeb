@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+html {
+  background: linear-gradient(#010120, #010120);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: radial-gradient(top, circle cover, hsla(330, 90%, 15%, 1) 20%, hsla(0, 0%, 0%, 1) 80%);
+  background-color: #010120;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+.link {
+  display: block;
+  position: absolute;
+  top: 22px;
+  right: 52px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  opacity: 0.3;
+}
+
+.link:hover {
+  color: rgb(253, 100, 146);
+  opacity: 0.5;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icons a {
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.5;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.icons a:hover {
+  color: #ff459c;
+  transition: 0.5s;
+  opacity: 1;
+}
+
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 17em;
+}
+
+h1 {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  color: rgb(185, 185, 185);
+}
+
+#name {
+  color: rgb(253, 100, 146);
+}
+
+#profession {
+  align-items: center;
+  font-size: 25px;
+}
+
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+button {
+  padding: 10px 20px;
+  color: rgb(185, 185, 185);
+  background-color: rgb(1, 1, 32);
+  border: 1.5px solid rgb(253, 100, 146);
+  border-radius: 30px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  margin: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button:hover {
+  border: 1.5px solid;
+  color: rgb(185, 185, 185);
+}
