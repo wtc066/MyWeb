@@ -713,7 +713,7 @@ input:focus[type="email"] {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/test\/main_website\/sass\/main\.scss}line{font-family:\00003617}}
 .cards h2 {
   font-size: 18px;
-  color: #000220;
+  color: #d7d7d7;
   text-transform: uppercase;
   padding-top: 1.5em;
 }
