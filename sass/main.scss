@@ -120,11 +120,17 @@ cite {
     font-family: "Poppins";
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
+    color: #7b7f91;
 }
 
 .blockquote p {
     margin: 0;
+}
+
+.desc_text {
+    font-size: 24px;
+    line-height: 1.5;
 }
 
 .desc {
@@ -170,18 +176,12 @@ h1 {
     margin-bottom: 0.5em;
 }
 
-.profi p {
-    margin-top: 0;
-    margin-left: 0.5em;
-    margin-right: 1em;
-}
-
 p {
     margin: 0;
-    font-family: "Poppins";
     font-weight: normal;
     font-size: 18px;
     line-height: 1.8;
+    color: #000220;
 }
 
 .services {
@@ -206,6 +206,12 @@ p {
     margin-right: 10em;
     margin-bottom: 20em;
     background-repeat: no-repeat;
+}
+
+
+.profi p {
+    margin-top: 0;
+    margin-right: 1em;
 }
 
 .description ul {
@@ -267,6 +273,11 @@ ul.list_skills {
     justify-content: start;
     align-items: center;
     color: #43485e;
+    margin-bottom: 8em;
+}
+
+.arrow p {
+    margin-left: 0.5em;
 }
 
 .social {
@@ -597,21 +608,51 @@ input:focus[type="email"] {
 .bg_list {
     margin-left: 4em;
 }
+
 .cards {
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
-.card_item_1 {
-    background-color: #c2c2c2;
-    border-radius: 4em;
-    padding: 2em 4em;
-    color: #d7d7d7;
+
+.card_item {
+    background-color: #f0f0f0;
+    border-radius: 2em;
+    color: #000220;
+    margin-right: 1em;
 }
-.card_item_2 p {
-    color: #43485e;
+
+.card_item:last-child {
+    margin-right: 0;
 }
-.cards h2  {
+
+.card_item svg {
+    border-radius: 2em 2em 0 0;
+}
+
+.card_item p {
+    margin-left: 35px;
+    color: #767676;
+    line-height: 1.4;
+}
+
+.cards h2 {
+    margin: 0;
+    margin-top: 1em;
+    margin-left: 2em;
     font-size: 18px;
     text-transform: uppercase;
-    padding-top: 1.5em;
+}
+
+.card-subheading {
+    margin-left: 35px;
+    font-size: 12px;
+    color: #c4c4c4;
+}
+
+.card_item button {
+
+    margin-left: 35px;
+    margin-top: 12px;
+    margin-bottom: 20px;
 }
